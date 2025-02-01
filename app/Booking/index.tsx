@@ -1,19 +1,19 @@
+import CarList from "@/components/CarList";
+import Dates from "@/components/Dates";
+import HeaderBooking from "@/components/HeaderBooking";
+import Slots from "@/components/Slots";
+import ValidateButton from "@/components/ValidateButton";
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import HeaderRendezVous from "../../components/HeaderBooking";
-import ListeVehicule from "../../components/CarList";
-import Choixdate from "../../components/Dates";
-import Creneau from "../../components/Slots";
-import ValiderButton from "../../components/ValidateButton";
 
 const Index = () => {
   return (
     <View style={styles.container}>
-      <HeaderRendezVous />
-      <ListeVehicule/>
-      <Choixdate/>
-      <Creneau/>
-      <ValiderButton price={49000}  />
+      <HeaderBooking />
+      <CarList/>
+      <Dates/>
+      <Slots/>
+      <ValidateButton price={49000}  />
     </View>
   );
 };
