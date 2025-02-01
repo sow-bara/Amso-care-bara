@@ -46,6 +46,7 @@ const Choixdate = () => {
 
       <FlatList
         horizontal
+        showsHorizontalScrollIndicator={false}
         data={dates}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (

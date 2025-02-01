@@ -1,12 +1,12 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import HeaderRendezVous from "./HeaderRendezVous";
-import ListeVehicule from "./ListeVehicule";
-import Choixdate from "./Choixdate";
-import Creneau from "./Creneau";
-import ValiderButton from "./ValiderButton";
+import HeaderRendezVous from "../../components/HeaderRendezVous";
+import ListeVehicule from "../../components/ListeVehicule";
+import Choixdate from "../../components/Choixdate";
+import Creneau from "../../components/Creneau";
+import ValiderButton from "../../components/ValiderButton";
 
-const RendezVous = () => {
+const Index = () => {
   return (
     <View style={styles.container}>
       <HeaderRendezVous />
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   
 });
 
-export default RendezVous;
+export default Index;
