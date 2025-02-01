@@ -1,7 +1,7 @@
 import { Bell, ChevronLeft } from "lucide-react-native";
 import { View, Text, StyleSheet } from "react-native";
 
-const HeaderRendezVous = () => {
+const HeaderBooking = () => {
   return (
     <View style={styles.container}>
       <View style={styles.iconContainer}>
@@ -37,4 +37,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HeaderRendezVous;
+export default HeaderBooking;

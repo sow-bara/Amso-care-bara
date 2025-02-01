@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 
-const Creneau = () => {
+const Slots = () => {
   const [selectedSlot, setSelectedSlot] = useState<number | null>(null); 
 
   const slots = [
@@ -94,4 +94,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Creneau;
+export default Slots;

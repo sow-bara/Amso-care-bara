@@ -6,7 +6,7 @@ interface ValiderButtonProps {
   price?: number;
 }
 
-const ValiderButton = ({ price }: ValiderButtonProps) => {
+const ValidateButton = ({ price }: ValiderButtonProps) => {
   const handlePress = () => {
     console.log("Valider pressed");
   };
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ValiderButton;
+export default ValidateButton;

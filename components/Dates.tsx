@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, FlatList } from 'react-native';
 import { ChevronLeft, ChevronRight } from 'lucide-react-native'; 
 
-const Choixdate = () => {
+const Dates = () => {
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   
   const [currentDate, setCurrentDate] = useState(new Date());
@@ -144,4 +144,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Choixdate;
+export default Dates;

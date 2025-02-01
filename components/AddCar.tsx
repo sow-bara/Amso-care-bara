@@ -13,7 +13,7 @@ type VehicleProps = {
   onSelect: () => void; 
 };
 
-const AjoutVehicle = ({ vehicle, isSelected, onSelect }: VehicleProps) => {
+const AddCar = ({ vehicle, isSelected, onSelect }: VehicleProps) => {
   return (
     <TouchableOpacity onPress={onSelect} activeOpacity={0.8}>
       <View
@@ -60,4 +60,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default AjoutVehicle;
+export default AddCar;

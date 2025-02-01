@@ -33,7 +33,7 @@ const WelcomeImage = ({ imageSource, steps, currentStep }: Props) => {
         </Text>
       </View>
       <View style={styles.button}>
-        <Link href="./RendezVous"> <ArrowRight size={24} color="#24294F" /> </Link>  
+        <Link href="./Booking"> <ArrowRight size={24} color="#24294F" /> </Link>  
       </View>
       
       {/* Stepper intégré */}

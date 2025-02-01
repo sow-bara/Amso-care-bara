@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from "react-native";
-import AjoutVehicle from "./AjoutVehicule"; 
+import AjoutVehicle from "./AddCar"; 
 
-const ListeVehicule = () => {
+const CarList = () => {
   const [vehicles, setVehicles] = useState([
     { id: '1', marque: "Toyota", model: "Corolla", moteur: "V4", image: require("@/assets/images/Vehicle.png") },
     { id: '2', marque: "Honda", model: "Civic", moteur: "V6", image: require("@/assets/images/Vehicle1.png") },
@@ -89,4 +89,4 @@ const styles = StyleSheet.create({
   });
   
 
-export default ListeVehicule;
+export default CarList;

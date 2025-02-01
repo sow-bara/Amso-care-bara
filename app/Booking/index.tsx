@@ -1,10 +1,10 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import HeaderRendezVous from "../../components/HeaderRendezVous";
-import ListeVehicule from "../../components/ListeVehicule";
-import Choixdate from "../../components/Choixdate";
-import Creneau from "../../components/Creneau";
-import ValiderButton from "../../components/ValiderButton";
+import HeaderRendezVous from "../../components/HeaderBooking";
+import ListeVehicule from "../../components/CarList";
+import Choixdate from "../../components/Dates";
+import Creneau from "../../components/Slots";
+import ValiderButton from "../../components/ValidateButton";
 
 const Index = () => {
   return (
