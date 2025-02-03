@@ -116,9 +116,9 @@ const styles = StyleSheet.create({
   },
   textMessage: {
     color: "white",
-    fontSize: 25,
+    fontSize: 19,
     textAlign: "justify",
-    left: width * 0.08,
+    left: width * 0.07,
   }
   ,
   button: {
@@ -126,18 +126,18 @@ const styles = StyleSheet.create({
     right: width * 0.05,
     width: 60,
     height: 60,
-    borderRadius: 19,
+    borderRadius: 21,
     justifyContent: "center",
     alignItems: "center",
     position: "absolute",
-    top: height * 0.79,
+    top: height * 0.76,
   },
   stepperContainer: {
     flexDirection: "row",
     left: width * 0.07,
     position: "absolute",
     alignSelf: "flex-start",
-    top: height * 0.83,
+    top: height * 0.8,
   },
   step: {
     width: 8,
