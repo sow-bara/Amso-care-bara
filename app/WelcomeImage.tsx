@@ -40,10 +40,10 @@ const WelcomeImage = ({ imageSource, steps, currentStep }: Props) => {
           </Text>
         </View>
         <View style={styles.button}>
-        <Link href="/Booking">
-          <ArrowRight size={24} color="#24294F" />
-        </Link>
-      </View>
+          <Link href="/Booking/Booking">
+            <ArrowRight size={24} color="#24294F" />
+          </Link>
+        </View>
       <View style={styles.stepperContainer}>
         {Array.from({ length: steps }).map((_, index) => (
           <View

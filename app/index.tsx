@@ -5,7 +5,11 @@ import WelcomeImage from "./WelcomeImage";
 const Index = () => {
   return (
     <View style={styles.container}>
-      <WelcomeImage imageSource={require("@/assets/images/log.jpeg")} steps={3} currentStep={0}  />
+      <WelcomeImage 
+        imageSource={require("@/assets/images/log.jpeg")}
+        steps={3} 
+        currentStep={0} 
+      />
     </View>
     
   );
